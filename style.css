@@ -1,0 +1,119 @@
+/* General styles for the body */
+body {
+    background-color: rgb(125, 97, 83);
+    font-family: Georgia, serif;
+    margin: 0;
+    font-size: 1.6vw;
+}
+
+/* Styling for paragraphs */
+p {
+    font-size: 0.5em; /* Corrected property from 'font' to 'font-size' */
+}
+
+/* Logo styling */
+#logo {
+    margin: 0;
+    padding: 8px;
+    font-family: 'Fredoka One', sans-serif; /* Corrected the quotes */
+    width: auto; /* Changed from '1%' to 'auto' for proper sizing */
+}
+
+/* Styling for links inside <cite> elements */
+cite > a {
+    margin: 100px; /* Margins on all sides */
+    padding: 50px; /* Padding on all sides */
+    display: inline-block; /* Ensures margin and padding are applied correctly */
+}
+
+/* Reset margin for unordered lists */
+ul {
+    margin: 0;
+}
+#nav-ul{
+    display: flex;
+
+}
+#nav-ul > li {
+    padding: 8px;
+    margin: 16px;
+
+}
+     
+
+/* Header styling */
+body > header {
+    background-color: rgb(218, 172, 139);
+    color: white;
+    display: flex;
+    height: 12vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* Removing list styles and text decoration from <ul> inside header's <nav> */
+body > header > nav > ul {
+    list-style: none;
+    text-decoration: none; /* This line is not needed for <ul>, only for <a> inside */
+}
+
+/* Styling for navigation buttons */
+.navbutton {
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    border: 1px solid white;
+    border-radius: 10%;
+}
+
+/* Main article styling */
+body > main article {
+    width: 70%;
+    margin: auto;
+}
+#main-content {
+    display: flex;
+    justify-content: space-around;
+
+}
+#main-content > div {
+    width: 70%;
+
+
+}
+
+/* Form styling */
+form {
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+
+/* Footer styling */
+body > footer {
+    background-color: rgb(218, 172, 139);
+    color: white;
+    display: flex;
+}
+
+/* Image styling */
+img {
+    border-radius: 50%;
+}
+#footer-ul{
+    display: flex;
+    list-style: none;
+
+}
+
+#footer-ul > div >li {
+    margin-left: 12px;
+
+}
+
+#footer-ul > div > li >a{
+    color: white;
+    text-decoration: none;
+
+}
